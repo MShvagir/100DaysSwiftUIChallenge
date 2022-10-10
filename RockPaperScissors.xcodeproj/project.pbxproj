@@ -11,6 +11,8 @@
 		D821FBB128E8D860003C3700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821FBB028E8D860003C3700 /* ContentView.swift */; };
 		D821FBB328E8D861003C3700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D821FBB228E8D861003C3700 /* Assets.xcassets */; };
 		D821FBB628E8D861003C3700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D821FBB528E8D861003C3700 /* Preview Assets.xcassets */; };
+		D8A4D0F028F2010800055516 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A4D0EF28F2010800055516 /* BetterRest.swift */; };
+		D8A4D0F228F32E1500055516 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D8A4D0F128F32E1500055516 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D821FBB028E8D860003C3700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D821FBB228E8D861003C3700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D821FBB528E8D861003C3700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8A4D0EF28F2010800055516 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		D8A4D0F128F32E1500055516 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		D821FBA228E8D860003C3700 = {
 			isa = PBXGroup;
 			children = (
+				D8A4D0EE28F200CA00055516 /* BetterRest */,
 				D821FBAD28E8D860003C3700 /* RockPaperScissors */,
 				D821FBAC28E8D860003C3700 /* Products */,
 			);
@@ -65,6 +70,15 @@
 				D821FBB528E8D861003C3700 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8A4D0EE28F200CA00055516 /* BetterRest */ = {
+			isa = PBXGroup;
+			children = (
+				D8A4D0EF28F2010800055516 /* BetterRest.swift */,
+				D8A4D0F128F32E1500055516 /* SleepCalculator.mlmodel */,
+			);
+			path = BetterRest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D821FBB128E8D860003C3700 /* ContentView.swift in Sources */,
+				D8A4D0F228F32E1500055516 /* SleepCalculator.mlmodel in Sources */,
 				D821FBAF28E8D860003C3700 /* RockPaperScissorsApp.swift in Sources */,
+				D8A4D0F028F2010800055516 /* BetterRest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
