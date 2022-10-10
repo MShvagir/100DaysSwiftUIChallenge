@@ -1,6 +1,5 @@
-# Rock-Paper-Scissors_Game App 
-100 days of SwiftUI Challenge <br>
-This is a brain training game that challenges players to win or lose at rock, paper, scissors.
+# 100 days of SwiftUI Challenge 
+Challenge, practices, tasks <br>
 <br>
 <br>
 <img align = "left" src="https://user-images.githubusercontent.com/81764938/194635021-22c579d2-b627-4ca3-8326-624432d91a3a.png" width="250">
